@@ -21,23 +21,23 @@ export default function Home() {
 
           <h1 className="font-semibold text-3xl mt-10">Good Afternoon</h1>
 
-          <div className="grid grid-cols-3 gap-4 mt-5">
-            <Album name="Wasting Light" />
-            <Album name="Wasting Light" />
-            <Album name="Wasting Light" />
-            <Album name="Wasting Light" />
-            <Album name="Wasting Light" />
-            <Album name="Wasting Light" />
+          <div className="grid gap-4 mt-5 lg:grid-cols-3">
+            <Album name="Daily 1" img={"/daily1.jpg"} />
+            <Album name="Wasting Light" img={"/wasting.jpg"} />
+            <Album name="Top Brasil" img={"/top-brasil.jpg"} />
+            <Album name="Daily 5" img={"/daily5.jpg"} />
+            <Album name="Top Hits" img={"/top-hits.jpg"} />
+            <Album name="Daily 2" img={"/daily2.jpg"} />
           </div>
 
           <h2 className="font-semibold text-2xl mt-10">Made for Evander</h2>
 
-          <div className="grid grid-cols-5 gap-4 mt-4 ">
-            <Music />
-            <Music />
-            <Music />
-            <Music />
-            <Music />
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mt-4 ">
+            <Music name="Daily 3" img={"/daily3.jpg"} />
+            <Music name="Daily 4" img={"/daily4.jpg"} />
+            <Music name="Daily 5" img={"/daily5.jpg"} />
+            <Music name="Daily 6" img={"/daily6.jpg"} />
+            <Music name="Daily 2" img={"/daily2.jpg"} />
           </div>
         </main>
       </div>
