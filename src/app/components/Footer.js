@@ -8,7 +8,7 @@ export function Footer() {
         <Image
           width={60}
           height={60}
-          src="/album.jpg"
+          src="/wasting.jpg"
           alt="Capa do album Wasting Light"
         />
         <div className="flex flex-col">
